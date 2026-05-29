@@ -1,13 +1,21 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>tailwindtemplate</title>
+    <title>tailwind-challenge-luis-felipe-costa-barreto</title>
   </head>
-  <body>
-    <div class="bg-pink-500">oi galera :D</div>
+  <body class="h-screen">
+    <nav class="bg-blue-500 flex justify-center h-1/10 w-screen items-center fixed px-5 text-white sm:justify-between">
+      <ul class="hidden sm:flex gap-3">
+        <li><a href="" class="border-2 border-solid border-blue-500 transition-colors hover:border-b-white">Home</a></li>
+        <li><a href="" class="border-2 border-solid border-blue-500 transition-colors hover:border-b-white">Promoção</a></li>
+        <li><a href="" class="border-2 border-solid border-blue-500 transition-colors hover:border-b-white">Contatos</a></li>
+      </ul>
+      <h1 class="font-bold text-[clamp(1.4rem,3vw,3rem)]">Gaming Kingdom</h1>
+      <input type="text" placeholder="Pesquisar" class="hidden sm:block w-50 bg-blue-400 rounded-lg px-3 py-1">
+    </nav>
+    <script type="module" src="/src/main.js"></script>
   </body>
-  <script type="module" src="./src/main.js"></script>
 </html>
