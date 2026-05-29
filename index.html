@@ -7,19 +7,82 @@
     <title>tailwind-challenge-luis-felipe-costa-barreto</title>
   </head>
   <body class="h-screen">
-    <nav class="bg-blue-500 flex justify-center h-1/10 w-screen items-center fixed px-5 text-white sm:justify-between">
+    <nav class="bg-blue-500 flex justify-center h-1/10 w-screen items-center fixed px-7 text-white sm:justify-between">
       <ul class="hidden sm:flex gap-3">
-        <li><a href="" class="border-2 border-solid border-blue-500 transition-colors hover:border-b-white">Home</a></li>
-        <li><a href="" class="border-2 border-solid border-blue-500 transition-colors hover:border-b-white">Promoções</a></li>
-        <li><a href="" class="border-2 border-solid border-blue-500 transition-colors hover:border-b-white">Contatos</a></li>
+        <li><a href="" class="border-2 border-solid border-blue-500 transition-colors hover:border-b-white">Biblioteca</a></li>
+        <li><a href="#promocoes" class="border-2 border-solid border-blue-500 transition-colors hover:border-b-white">Promoções</a></li>
+        <li><a href="" class="border-2 border-solid border-blue-500 transition-colors hover:border-b-white">Comunidade</a></li>
       </ul>
-      <h1 class="font-bold text-[clamp(1.35rem,3vw,3rem)]">Gaming Kingdom</h1>
-      <input type="text" placeholder="Pesquisar" class="hidden sm:block w-50 bg-blue-400 rounded-lg px-3 py-1 focus:outline-none">
+      <h1 class="font-bold text-[clamp(1rem,3vw,3rem)]">Gaming Kingdom</h1>
+      <input type="text" placeholder="Pesquisar" class="hidden sm:block w-65 bg-blue-400 rounded-lg px-3 py-1 focus:outline-none">
     </nav>
-    <div class="hidden sm:flex bg-[url('./src/assets/smash.png')] bg-cover bg-center w-full h-45/100 absolute top-1/10 text-white
+    <div class="h-1/10 w-full invisible"></div>
+    <div class="hidden sm:flex bg-[url('./src/assets/smash.png')] bg-cover bg-center w-full h-45/100 text-white
     text-[clamp(1rem,2.5vw,2rem)] justify-center items-center text-shadow-black text-shadow-lg">
     A melhor comunidade de video-games: Compre, venda e discuta sobre jogos!</div>
-    
+    <main class="p-5 flex flex-col gap-5">
+      <section>
+        <h2 class="text-[clamp(1rem,2.5vw,2rem)] font-bold">RPG's</h2>
+        <div class="grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+          <div class="flex flex-col overflow-hidden rounded-2xl h-70 bg-blue-500 cursor-pointer shadow-gray-700 transition-shadow hover:shadow-lg">
+          <img src="./src/assets/dark_souls.png" class="h-85/100">
+          <h4 class="h-15/100 flex justify-center items-center text-white font-bold">Dark Souls</h4></div>
+          <div class="flex flex-col overflow-hidden rounded-2xl h-70 bg-blue-500 cursor-pointer shadow-gray-700 transition-shadow hover:shadow-lg">
+          <img src="./src/assets/dark_souls.png" class="h-85/100">
+          <h4 class="h-15/100 flex justify-center items-center text-white font-bold">Dark Souls</h4></div>
+          <div class="flex flex-col overflow-hidden rounded-2xl h-70 bg-blue-500 cursor-pointer shadow-gray-700 transition-shadow hover:shadow-lg">
+          <img src="./src/assets/dark_souls.png" class="h-85/100">
+          <h4 class="h-15/100 flex justify-center items-center text-white font-bold">Dark Souls</h4></div>
+          <div class="flex flex-col overflow-hidden rounded-2xl h-70 bg-blue-500 cursor-pointer shadow-gray-700 transition-shadow hover:shadow-lg">
+          <img src="./src/assets/dark_souls.png" class="h-85/100">
+          <h4 class="h-15/100 flex justify-center items-center text-white font-bold">Dark Souls</h4></div>
+          <div class="flex flex-col overflow-hidden rounded-2xl h-70 bg-blue-500 cursor-pointer shadow-gray-700 transition-shadow hover:shadow-lg">
+          <img src="./src/assets/dark_souls.png" class="h-85/100">
+          <h4 class="h-15/100 flex justify-center items-center text-white font-bold">Dark Souls</h4></div>
+        </div>
+      </section>
+      <section>
+        <h2 class="text-[clamp(1rem,2.5vw,2rem)] font-bold">Shooters</h2>
+        <div class="grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+          <div class="flex flex-col overflow-hidden rounded-2xl h-70 bg-blue-500 cursor-pointer shadow-gray-700 transition-shadow hover:shadow-lg">
+          <img src="./src/assets/dark_souls.png" class="h-85/100">
+          <h4 class="h-15/100 flex justify-center items-center text-white font-bold">Dark Souls</h4></div>
+          <div class="flex flex-col overflow-hidden rounded-2xl h-70 bg-blue-500 cursor-pointer shadow-gray-700 transition-shadow hover:shadow-lg">
+          <img src="./src/assets/dark_souls.png" class="h-85/100">
+          <h4 class="h-15/100 flex justify-center items-center text-white font-bold">Dark Souls</h4></div>
+          <div class="flex flex-col overflow-hidden rounded-2xl h-70 bg-blue-500 cursor-pointer shadow-gray-700 transition-shadow hover:shadow-lg">
+          <img src="./src/assets/dark_souls.png" class="h-85/100">
+          <h4 class="h-15/100 flex justify-center items-center text-white font-bold">Dark Souls</h4></div>
+          <div class="flex flex-col overflow-hidden rounded-2xl h-70 bg-blue-500 cursor-pointer shadow-gray-700 transition-shadow hover:shadow-lg">
+          <img src="./src/assets/dark_souls.png" class="h-85/100">
+          <h4 class="h-15/100 flex justify-center items-center text-white font-bold">Dark Souls</h4></div>
+          <div class="flex flex-col overflow-hidden rounded-2xl h-70 bg-blue-500 cursor-pointer shadow-gray-700 transition-shadow hover:shadow-lg">
+          <img src="./src/assets/dark_souls.png" class="h-85/100">
+          <h4 class="h-15/100 flex justify-center items-center text-white font-bold">Dark Souls</h4></div>
+        </div>
+      </section>
+      <section id="promocoes">
+        <h2 class="text-[clamp(1rem,2.5vw,2rem)] font-bold">Promoções</h2>
+        <div class="grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+          <div class="flex flex-col overflow-hidden rounded-2xl h-70 bg-blue-500 cursor-pointer shadow-gray-700 transition-shadow hover:shadow-lg">
+          <img src="./src/assets/dark_souls.png" class="h-85/100">
+          <h4 class="h-15/100 flex justify-center items-center text-white font-bold">Dark Souls</h4></div>
+          <div class="flex flex-col overflow-hidden rounded-2xl h-70 bg-blue-500 cursor-pointer shadow-gray-700 transition-shadow hover:shadow-lg">
+          <img src="./src/assets/dark_souls.png" class="h-85/100">
+          <h4 class="h-15/100 flex justify-center items-center text-white font-bold">Dark Souls</h4></div>
+          <div class="flex flex-col overflow-hidden rounded-2xl h-70 bg-blue-500 cursor-pointer shadow-gray-700 transition-shadow hover:shadow-lg">
+          <img src="./src/assets/dark_souls.png" class="h-85/100">
+          <h4 class="h-15/100 flex justify-center items-center text-white font-bold">Dark Souls</h4></div>
+          <div class="flex flex-col overflow-hidden rounded-2xl h-70 bg-blue-500 cursor-pointer shadow-gray-700 transition-shadow hover:shadow-lg">
+          <img src="./src/assets/dark_souls.png" class="h-85/100">
+          <h4 class="h-15/100 flex justify-center items-center text-white font-bold">Dark Souls</h4></div>
+          <div class="flex flex-col overflow-hidden rounded-2xl h-70 bg-blue-500 cursor-pointer shadow-gray-700 transition-shadow hover:shadow-lg">
+          <img src="./src/assets/dark_souls.png" class="h-85/100">
+          <h4 class="h-15/100 flex justify-center items-center text-white font-bold">Dark Souls</h4></div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-blue-500 text-white p-5 mt-10">© 2024 Gaming Kingdom. Todos os direitos reservados.</footer>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
